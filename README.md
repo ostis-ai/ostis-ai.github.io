@@ -2,13 +2,15 @@
 
 OSTIS-AI is an open-source initiative dedicated to developing and promoting **Open Semantic Technology for Intelligent Systems** (**OSTIS**). This technology aims to create semantically compatible intelligent systems that can seamlessly integrate various types of knowledge and problem-solving models, enabling them to adapt and solve new problems efficiently.
 
+---
+
 ### Why OSTIS?
 
 OSTIS (Open Semantic Technology for Intelligent Systems) isn't just another AI project; it's an open-source technology designed to revolutionize how we build intelligent systems. 
 
 The primary goal of OSTIS is to address the limitations of current intelligent systems, which are often monolithic, difficult to modify, and expensive to develop. By providing a universal framework for representing information using **SC-code** (Semantic Computer Code), OSTIS enables the creation of modular, reusable components that can be easily combined across different systems.
 
-### Key Advantages of OSTIS:
+## Key Advantages of OSTIS:
 
 - **Plug-and-Play Integration**: Seamlessly add new problem-solving models or knowledge without complex overhead.
 - **Universal Components**: Reusable components reduce development time and effort across different systems.
@@ -16,18 +18,20 @@ The primary goal of OSTIS is to address the limitations of current intelligent s
 - **Platform Independence**: ostis-systems can be implemented on various platforms, paving the way for semantic computers.
 - **Parallel Processing**: Designed for efficient parallel information processing, especially beneficial for semantic computers.
 
-### Key Features of SC-code:
+## Key Features of SC-code:
 
 - **Universality**: Represents any information uniformly.
 - **Non-linearity**: Suitable for semantic associative computers.
 - **Basic Alphabet**: Comprises just five elements.
 - **Flexibility**: Can represent knowledge, models, and interfaces.
 
+---
+
 ### Getting Started with OSTIS
 
 To begin working with OSTIS, let's use the `ostis-example-app` as a practical starting point. This application demonstrates key components of an ostis-system, including a knowledge base, problem solver, and user interface.
 
-### Step-by-Step Guide to `ostis-example-app`
+## Step-by-Step Guide to `ostis-example-app`
 
 1. **Prerequisites**:
    
@@ -64,6 +68,8 @@ To begin working with OSTIS, let's use the `ostis-example-app` as a practical st
 6. To stop the system, use `docker compose stop`.
    
 7. Rebuild the knowledge base after any changes to `.scs` or `.gwf` files.
+
+---
 
 ### Contributing to and Engaging with the OSTIS Community
 
