@@ -33,7 +33,7 @@ The primary goal of OSTIS is to address the limitations of current intelligent s
 
 To begin working with OSTIS, let's use the `ostis-example-app` as a practical starting point. This application demonstrates key components of an ostis-system, including a knowledge base, problem solver, and user interface.
 
-### Step-by-Step Guide to `ostis-example-app`
+### Step-by-Step Guide to ostis-example-app
 
 1. **Prerequisites**:
    
