@@ -64,12 +64,14 @@ To begin working with OSTIS, let's use the `ostis-example-app` as a practical st
 5. **Start the System**:
    
    ```sh
-   docker compose up # Accessible at localhost:8000.
+   docker compose up
    ```
+
+6. **Access interface at [localhost:8000](localhost:8000)**.
    
-6. To stop the system, use `docker compose stop`.
+7. To stop the system, use `docker compose stop`.
    
-7. Rebuild the knowledge base after any changes to `.scs` or `.gwf` files.
+8. Rebuild the knowledge base after any changes to `.scs` or `.gwf` files.
 
 ---
 
