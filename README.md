@@ -1,5 +1,3 @@
-<div align="justify">
-
 ## Introduction
 
 **OSTIS-AI** is an open-source initiative focused on developing and promoting **Open Semantic Technology for Intelligent Systems (OSTIS)**. This technology enables the creation of semantically compatible intelligent systems that can seamlessly integrate various types of knowledge and problem-solving models, allowing them to adapt and solve new problems efficiently.
@@ -82,8 +80,6 @@ Join us by exploring these opportunities:
 3. Attend OSTIS Conference: [OSTIS Conference](http://conf.ostis.net/en/ostis-conference/)  
 
 We welcome your contributions! Use GitHub's issue tracker if you encounter issues or have suggestions.
-
-</div>
 
 --- 
 
