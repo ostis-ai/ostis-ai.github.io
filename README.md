@@ -2,15 +2,15 @@
 
 ## Introduction
 
-OSTIS-AI is an open-source initiative dedicated to developing and promoting **Open Semantic Technology for Intelligent Systems** (**OSTIS**). This technology aims to create semantically compatible intelligent systems that can seamlessly integrate various types of knowledge and problem-solving models, enabling them to adapt and solve new problems efficiently.
+**OSTIS-AI** is an open-source initiative focused on developing and promoting **Open Semantic Technology for Intelligent Systems (OSTIS)**. This technology enables the creation of semantically compatible intelligent systems that can seamlessly integrate various types of knowledge and problem-solving models, allowing them to adapt and solve new problems efficiently.
 
 ---
 
 ## Why OSTIS?
 
-OSTIS (Open Semantic Technology for Intelligent Systems) isn't just another AI project; it's an open-source technology designed to revolutionize how we build intelligent systems. 
+OSTIS is not just another AI project; it's an open-source technology designed to revolutionize how we build intelligent systems. The primary goal of OSTIS is to address the limitations of current intelligent systems, which are often monolithic, difficult to modify, and expensive to develop.
 
-The primary goal of OSTIS is to address the limitations of current intelligent systems, which are often monolithic, difficult to modify, and expensive to develop. By providing a universal framework for representing information using **SC-code** (Semantic Computer code), OSTIS enables the creation of modular, reusable components that can be easily combined across different systems.
+By providing a universal framework for representing information using **SC-code (Semantic Computer code)**, OSTIS enables the creation of modular, reusable components that can be easily combined across different systems.
 
 ### Key Advantages of OSTIS:
 
@@ -35,12 +35,11 @@ To begin working with OSTIS, let's use the `ostis-example-app` as a practical st
 
 ### Step-by-Step Guide to ostis-example-app
 
-1. **Prerequisites**:
-   
-   - [Install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) for cloning repositories.
-   - [Install Docker and Docker Compose](https://www.docker.com/get-started) for simplified setup.
+1. Prerequisites:
+   - Install Git: [https://git-scm.com/book/en/v2/Getting-Started-Installing-Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+   - Install Docker & Docker Compose: [https://www.docker.com/get-started](https://www.docker.com/get-started)
 
-2. **Clone the Repository**:
+2. Clone Repository:
    
    ```sh
    git clone https://github.com/ostis-apps/ostis-example-app.git
@@ -49,44 +48,43 @@ To begin working with OSTIS, let's use the `ostis-example-app` as a practical st
    git submodule update --init --recursive
    ```
 
-3. **Build Docker Images**:
+3. Build Docker Images:
    
    ```sh
    docker compose build
    ```
 
-4. **Build Knowledge Base**:
+4. Build Knowledge Base:
    
    ```sh
    docker compose run --rm machine build
    ```
 
-5. **Start the System**:
+5. Start System:
    
    ```sh
-   docker compose up
+   docker compose up 
+   # Access interface at http://localhost:8000/
+   # To stop system use `docker compose stop`
+   # Rebuild KB after changes in `.scs` or `.gwf` files 
    ```
 
-6. **Access interface at [localhost:8000](localhost:8000)**.
-   
-7. To stop the system, use `docker compose stop`.
-   
-8. Rebuild the knowledge base after any changes to `.scs` or `.gwf` files.
+6. To rebuild after changes in `.scs` or `.gwf`, repeat step 4.
 
 ---
 
-## Contributing to and Engaging with the OSTIS Community
+## Contributing & Engaging with the Community
 
-To become part of the OSTIS community and contribute, you can use the following opportunities:
+Join us by exploring these opportunities:
 
-- **Join our Element Chat:** [OSTIS Tech Support](https://app.element.io/#/room/#ostis_tech_support:matrix.org) for real-time support and discussions.
-- **Explore our GitHub Repositories:** [GitHub Repositories](https://github.com/ostis-ai), where you can familiarize yourself with projects and participate in their development.
-- **Attend the OSTIS Conference:** [OSTIS Conference](http://conf.ostis.net/en/ostis-conference/) to learn about the latest advancements and share your experiences.
+1. Join our Element Chat: [OSTIS Tech Support](https://app.element.io/#/room/#ostis_tech_support:matrix.org)  
+2. Explore GitHub Repositories: [GitHub Repositories](https://github.com/ostis-ai)  
+3. Attend OSTIS Conference: [OSTIS Conference](http://conf.ostis.net/en/ostis-conference/)  
 
-**We welcome your contributions**! If you encounter issues or have suggestions for new features, please use the issue tracker system on each project's repository page on GitHub.
-
----
-
-Thank you for your interest in advancing OSTIS with us!
+We welcome your contributions! Use GitHub's issue tracker if you encounter issues or have suggestions.
 
 </div>
+
+--- 
+
+Thank you for your interest in advancing OSTIS!
