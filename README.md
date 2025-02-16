@@ -10,7 +10,7 @@ OSTIS-AI is an open-source initiative dedicated to developing and promoting **Op
 
 OSTIS (Open Semantic Technology for Intelligent Systems) isn't just another AI project; it's an open-source technology designed to revolutionize how we build intelligent systems. 
 
-The primary goal of OSTIS is to address the limitations of current intelligent systems, which are often monolithic, difficult to modify, and expensive to develop. By providing a universal framework for representing information using **SC-code** (Semantic Computer Code), OSTIS enables the creation of modular, reusable components that can be easily combined across different systems.
+The primary goal of OSTIS is to address the limitations of current intelligent systems, which are often monolithic, difficult to modify, and expensive to develop. By providing a universal framework for representing information using **SC-code** (Semantic Computer code), OSTIS enables the creation of modular, reusable components that can be easily combined across different systems.
 
 ### Key Advantages of OSTIS:
 
@@ -88,4 +88,5 @@ To become part of the OSTIS community and contribute, you can use the following 
 ---
 
 Thank you for your interest in advancing OSTIS with us!
+
 </div>
